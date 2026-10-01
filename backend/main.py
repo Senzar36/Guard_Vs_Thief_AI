@@ -1,5 +1,6 @@
 import mesa
 from pydantic import BaseModel
+from ui import Input_Values, InvalidLocationError
 class Values(BaseModel):
     directions : bool
     alive : bool
